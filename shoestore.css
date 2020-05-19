@@ -1,2 +1,35 @@
 /* Created by Roni Salman */
 
+body{
+    height: 100%;
+    font-family: 'Hind Vadodara', sans-serif;
+    background-color: grey;
+}
+
+.navbar.navbar-default{
+    padding: 0;
+    background-color: darkslategrey;
+}
+
+.container-fluid{
+    height: 100%;
+}
+
+.nav.navbar-nav.navbar-right{
+    height: 100%;
+}
+
+.btn.btn-info{
+    background-color: #a17f1a;
+    border-color: darkslategrey;
+    border-radius: 0;
+}
+
+.navbar-header{
+    margin: 0 auto;
+    position: relative;
+}
+
+.navbar-brand{
+    color: white;
+}
