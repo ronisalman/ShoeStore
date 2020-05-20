@@ -8,21 +8,31 @@ body{
 
 .navbar.navbar-default{
     padding: 0;
+    margin: 0;
     background-color: darkslategrey;
 }
 
 .container-fluid{
-    height: 100%;
+    padding: 0px;
 }
 
 .nav.navbar-nav.navbar-right{
+    height: 40px;
+    width: 20%;
+}
+
+.button-holder{
     height: 100%;
+    width: 100%;
 }
 
 .btn.btn-info{
     background-color: #a17f1a;
     border-color: darkslategrey;
     border-radius: 0;
+    border: none;
+    height: 100%;
+    width: 100%;
 }
 
 .navbar-header{
