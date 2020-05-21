@@ -3,13 +3,13 @@
 body{
     height: 100%;
     font-family: 'Hind Vadodara', sans-serif;
-    background-color: grey;
+    background-color: #032703c4;
 }
 
 .navbar.navbar-default{
     padding: 0;
     margin: 0;
-    background-color: darkslategrey;
+    background-color: #032703cc;
 }
 
 .container-fluid{
@@ -18,7 +18,7 @@ body{
 
 .nav.navbar-nav.navbar-right{
     height: 40px;
-    width: 20%;
+    width: 25%;
 }
 
 .button-holder{
@@ -28,11 +28,26 @@ body{
 
 .btn.btn-info{
     background-color: #a17f1a;
-    border-color: darkslategrey;
+    border-color: #032703cc;
     border-radius: 0;
     border: none;
+    outline: none;
+    box-shadow: none;
     height: 100%;
     width: 100%;
+}
+
+.gg-shopping-cart{
+    display: inline;
+    float: left;
+}
+
+.btn.btn-info:hover{
+    background-color: darkgoldenrod !important;
+}
+.btn.btn-info:active{
+    background-color: #a17f1a !important;
+    box-shadow: none !important;
 }
 
 .navbar-header{
@@ -41,5 +56,9 @@ body{
 }
 
 .navbar-brand{
+    color: white;
+}
+
+.navbar-brand:hover{
     color: white;
 }
