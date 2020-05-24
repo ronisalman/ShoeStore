@@ -67,3 +67,12 @@ img{
     height: 100%;
     width: 100%;
 }
+
+.price{
+    position: absolute;
+    top: 25px;
+    left: 25px;
+    font-weight: bold;
+    font-size: 18px;
+    color: white;
+}
