@@ -27,7 +27,7 @@ body{
 }
 
 .btn.btn-info{
-    background-color: #a17f1a;
+    background-color: #cca120;
     border-color: #032703cc;
     border-radius: 0;
     border: none;
@@ -46,7 +46,7 @@ body{
     background-color: darkgoldenrod !important;
 }
 .btn.btn-info:active{
-    background-color: #a17f1a !important;
+    background-color: rgb(131, 98, 15) !important;
     box-shadow: none !important;
 }
 
