@@ -24,5 +24,5 @@ class cart extends React.Component{
     }
 }
 
-const domContainer=document.querySelectorAll('.btn.btn-info');
+const domContainer=document.querySelector('#cartTest');
 ReactDOM.render(ele(cart),domContainer);
