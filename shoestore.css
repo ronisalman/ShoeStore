@@ -1,9 +1,11 @@
 /* Created by Roni Salman */
 
-body{
+html,body{
     height: 100%;
+    width: 100%;
+    margin: 0;
     font-family: 'Hind Vadodara', sans-serif;
-    background-color: #032703c4;
+    background-color: #054705bb;
 }
 
 .navbar.navbar-default{
@@ -75,4 +77,24 @@ img{
     font-weight: bold;
     font-size: 18px;
     color: white;
+}
+
+.container{
+    padding: 0;
+}
+
+#footer{
+    background-color: #032703cc;
+    height: 10%;
+}
+
+#footerUL{
+    margin-bottom: 0;
+    padding-left: 0;
+    list-style: none;
+}
+
+.footerLinks{
+    color: white;
+    display: inline;
 }
