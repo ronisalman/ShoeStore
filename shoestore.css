@@ -4,8 +4,9 @@ html,body{
     height: 100%;
     width: 100%;
     margin: 0;
+    padding: 0;
     font-family: 'Hind Vadodara', sans-serif;
-    background-color: #054705bb;
+    background-color: #034d03;
 }
 
 .navbar.navbar-default{
@@ -83,18 +84,39 @@ img{
     padding: 0;
 }
 
+.row{
+    margin: 0;
+}
+
+
+
 #footer{
     background-color: #032703cc;
     height: 10%;
+    width: 100%;
 }
 
 #footerUL{
     margin-bottom: 0;
     padding-left: 0;
     list-style: none;
+    height: 100%;
+    width: 100%;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
 }
 
 .footerLinks{
     color: white;
     display: inline;
+    cursor: pointer;
+    user-select: none;
+}
+
+.footerLinks:hover{
+    text-shadow: 3px 3px 5px darkgray;
+    transition-delay: 3s ease-in-out;
 }
