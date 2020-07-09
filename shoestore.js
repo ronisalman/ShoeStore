@@ -1,16 +1,32 @@
 // Created by Roni Salman
 
 const cartButton=document.querySelector('#cartTest');
-const e=React.createElement;
 
-
-const clickedCart=()=>{
-    console.log('hi');
-}
-
-
-
-ReactDOM.render(
-    e('div',null,'Hello!'),
+class OpenCart extends React.Component {
+    render() {
+      return /*#__PURE__*/React.createElement("p", null, "Hello world!");
+    }
+  
+  }
+  
+  ReactDOM.render( /*#__PURE__*/
+    React.createElement(OpenCart, null), 
     document.getElementById('root')
-);
+  );
+
+
+// Before compiling:
+//   class OpenCart extends React.Component{
+//     render(){
+//         return(
+//             <p>Hello world!</p>
+//         )
+//     }
+// }
+
+
+
+// ReactDOM.render(
+//     <OpenCart />,
+//     document.getElementById('root')
+// );
