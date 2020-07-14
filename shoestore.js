@@ -8,7 +8,7 @@ class OpenCart extends React.Component {
 }
 
 clickedCart=()=>{
-  ReactDOM.render( /*#__PURE__*/React.createElement(OpenCart, null), document.getElementById('root'));
+  ReactDOM.render( /*#__PURE__*/React.createElement(OpenCart, null), document.getElementById('slidingCart'));
 }
 
 // Before compiling:
@@ -24,5 +24,5 @@ clickedCart=()=>{
 
 // ReactDOM.render(
 //     <OpenCart />,
-//     document.getElementById('root')
+//     document.getElementById('slidingCart')
 // );
