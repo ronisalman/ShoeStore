@@ -128,3 +128,14 @@ img{
 .footerLinks:active{
     color: rgb(131, 98, 15);
 }
+
+#slidingCart{
+    height: 100%;
+    width: 25%;
+    background-color: #cca120;
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    left: 75%;
+    top: 40px;
+}
