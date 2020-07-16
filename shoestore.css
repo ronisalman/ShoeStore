@@ -129,7 +129,7 @@ img{
     color: rgb(131, 98, 15);
 }
 
-#slidingCart{
+.openCart{
     height: 50%;
     width: 25%;
     background-color: #cca120;
