@@ -139,3 +139,14 @@ img{
     left: 75%;
     top: 40px;
 }
+
+.shoeContainer{
+    cursor: pointer; 
+}
+
+@media only screen and (max-width: 600px){
+    .openCart{
+        width: 100%;
+        left: 0%;
+    }
+}
