@@ -144,6 +144,11 @@ img{
     cursor: pointer; 
 }
 
+.totalPrice{
+    margin-top: 50%;
+    text-align: center;
+}
+
 @media only screen and (max-width: 600px){
     .openCart{
         width: 100%;
