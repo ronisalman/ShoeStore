@@ -1,1 +1,1 @@
-Work in progress
+Responsive shoe e-commerce website. 
